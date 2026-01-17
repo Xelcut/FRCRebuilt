@@ -98,7 +98,9 @@ public class RobotMap {
 
   // [I]ntake TODO: fill in intake mappings
   public static boolean I_ENABLED = true;
-  public static int I_MOTOR_CAN_ID = RoboRioMap.CAN_0;
+  public static int I_MOTOR_ONE = RoboRioMap.CAN_0;
+  public static int I_MOTOR_TWO = RoboRioMap.CAN_0; //might need 2 motors for intake
+  public static boolean I_OPPOSITE = true;  //jason said there could need to be 2 intake motors and they might go in opposite directions
 
   // [S]hooter
   public static boolean S_ENABLED = true;
